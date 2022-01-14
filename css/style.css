@@ -42,3 +42,30 @@ h2 {
 .dream-text {
     padding-right: 100px;
 }
+.experiences-items {
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+.experiences {
+    display: flex;
+}
+.box-shadow {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+}
+#left-exp {
+    margin: 0% 2% 0% 5%;
+    border-left: 7px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(blue,rgb(90, 167, 238));
+}
+#right-exp {
+    margin: 0% 5% 0% 2%;
+    border-left: 7px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(rgb(255, 0, 13),rgb(231, 108, 114));
+}
+.year-color {
+    color: orange;
+}
